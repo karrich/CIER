@@ -1,4 +1,4 @@
-# PEPLER (PErsonalized Prompt Learning for Explainable Recommendation)
+# ERRB (xxxx)
 
 ## Paper
 - Shijie Liu, Ruixin Ding, xx xx, Wei Zhang. [name](https:xx). xxxx (EMNLP ing), 2024.
