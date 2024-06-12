@@ -19,7 +19,7 @@ python main.py --delta 0.2 --dataset_name TripAdvisor
 ```
 ## Only test
 ```
-python main.py \xxxx
+python main.py --dataset_name Yelp --only_eval
 ```
 ## Code dependencies
 - Python 3.9
