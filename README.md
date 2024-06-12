@@ -11,7 +11,11 @@
 ## Training
 Below are examples of how to training ERRB.
 ```
+python main.py --delta 0.2 --dataset_name Yelp
+
 python main.py --delta 0.6 --dataset_name Amazon/MoviesAndTV
+
+python main.py --delta 0.2 --dataset_name TripAdvisor
 ```
 ## Only test
 ```
