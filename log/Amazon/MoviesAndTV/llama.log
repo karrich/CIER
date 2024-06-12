@@ -1,0 +1,385 @@
+openlm-research/open_llama_7b_v2
+                                 split_index:1
+Train Epoch: 0 [32000/353426 (9.03%)]	 Loss: 5.218226
+Train Epoch: 0 [64000/353426 (18.09%)]	 Loss: 4.524841
+Train Epoch: 0 [96000/353426 (27.14%)]	 Loss: 4.209394
+Train Epoch: 0 [128000/353426 (36.19%)]	 Loss: 4.004039
+Train Epoch: 0 [160000/353426 (45.25%)]	 Loss: 3.850586
+Train Epoch: 0 [192000/353426 (54.3%)]	 Loss: 3.736912
+Train Epoch: 0 [224000/353426 (63.35%)]	 Loss: 3.603387
+Train Epoch: 0 [256000/353426 (72.41%)]	 Loss: 3.549933
+Train Epoch: 0 [288000/353426 (81.46%)]	 Loss: 3.464525
+Train Epoch: 0 [320000/353426 (90.51%)]	 Loss: 3.404962
+Train Epoch: 0 [352000/353426 (99.57%)]	 Loss: 3.359583
+valid Loss: 3.102381
+3.102381
+save model
+Train Epoch: 1 [32000/353426 (9.03%)]	 Loss: 3.275627
+Train Epoch: 1 [64000/353426 (18.09%)]	 Loss: 3.234369
+Train Epoch: 1 [96000/353426 (27.14%)]	 Loss: 3.221659
+Train Epoch: 1 [128000/353426 (36.19%)]	 Loss: 3.184809
+Train Epoch: 1 [160000/353426 (45.25%)]	 Loss: 3.166586
+Train Epoch: 1 [192000/353426 (54.3%)]	 Loss: 3.136464
+Train Epoch: 1 [224000/353426 (63.35%)]	 Loss: 3.122346
+Train Epoch: 1 [256000/353426 (72.41%)]	 Loss: 3.101086
+Train Epoch: 1 [288000/353426 (81.46%)]	 Loss: 3.084943
+Train Epoch: 1 [320000/353426 (90.51%)]	 Loss: 3.066809
+Train Epoch: 1 [352000/353426 (99.57%)]	 Loss: 3.040998
+valid Loss: 2.983738
+2.983738
+save model
+Train Epoch: 2 [32000/353426 (9.03%)]	 Loss: 2.952969
+Train Epoch: 2 [64000/353426 (18.09%)]	 Loss: 2.950636
+Train Epoch: 2 [96000/353426 (27.14%)]	 Loss: 2.937148
+Train Epoch: 2 [128000/353426 (36.19%)]	 Loss: 2.932216
+Train Epoch: 2 [160000/353426 (45.25%)]	 Loss: 2.926869
+Train Epoch: 2 [192000/353426 (54.3%)]	 Loss: 2.922276
+Train Epoch: 2 [224000/353426 (63.35%)]	 Loss: 2.909848
+Train Epoch: 2 [256000/353426 (72.41%)]	 Loss: 2.902566
+Train Epoch: 2 [288000/353426 (81.46%)]	 Loss: 2.900788
+Train Epoch: 2 [320000/353426 (90.51%)]	 Loss: 2.895113
+Train Epoch: 2 [352000/353426 (99.57%)]	 Loss: 2.888269
+valid Loss: 2.926979
+2.926979
+save model
+RMSE  0.9485
+MAE  0.7004
+BLEU-1 13.2665
+BLEU-4  1.1298
+USR  0.4744 | USN   20960
+DIV  2.0113
+FCR  0.5256
+FMR  0.1234
+rouge_1 14.3780
+rouge_2  2.0697
+rouge_l 11.5214
+openlm-research/open_llama_7b_v2
+                                 split_index:2
+Train Epoch: 0 [32000/353426 (9.03%)]	 Loss: 5.241084
+Train Epoch: 0 [64000/353426 (18.09%)]	 Loss: 4.55997
+Train Epoch: 0 [96000/353426 (27.14%)]	 Loss: 4.249597
+Train Epoch: 0 [128000/353426 (36.19%)]	 Loss: 4.050488
+Train Epoch: 0 [160000/353426 (45.25%)]	 Loss: 3.871055
+Train Epoch: 0 [192000/353426 (54.3%)]	 Loss: 3.771554
+Train Epoch: 0 [224000/353426 (63.35%)]	 Loss: 3.655156
+Train Epoch: 0 [256000/353426 (72.41%)]	 Loss: 3.546134
+Train Epoch: 0 [288000/353426 (81.46%)]	 Loss: 3.483629
+Train Epoch: 0 [320000/353426 (90.51%)]	 Loss: 3.411281
+Train Epoch: 0 [352000/353426 (99.57%)]	 Loss: 3.384126
+valid Loss: 3.123613
+3.123613
+save model
+Train Epoch: 1 [32000/353426 (9.03%)]	 Loss: 3.307918
+Train Epoch: 1 [64000/353426 (18.09%)]	 Loss: 3.269948
+Train Epoch: 1 [96000/353426 (27.14%)]	 Loss: 3.238264
+Train Epoch: 1 [128000/353426 (36.19%)]	 Loss: 3.20291
+Train Epoch: 1 [160000/353426 (45.25%)]	 Loss: 3.162112
+Train Epoch: 1 [192000/353426 (54.3%)]	 Loss: 3.148123
+Train Epoch: 1 [224000/353426 (63.35%)]	 Loss: 3.124095
+Train Epoch: 1 [256000/353426 (72.41%)]	 Loss: 3.115813
+Train Epoch: 1 [288000/353426 (81.46%)]	 Loss: 3.078406
+Train Epoch: 1 [320000/353426 (90.51%)]	 Loss: 3.077269
+Train Epoch: 1 [352000/353426 (99.57%)]	 Loss: 3.061734
+valid Loss: 3.000537
+3.000537
+save model
+Train Epoch: 2 [32000/353426 (9.03%)]	 Loss: 2.961926
+Train Epoch: 2 [64000/353426 (18.09%)]	 Loss: 2.967847
+Train Epoch: 2 [96000/353426 (27.14%)]	 Loss: 2.963591
+Train Epoch: 2 [128000/353426 (36.19%)]	 Loss: 2.952429
+Train Epoch: 2 [160000/353426 (45.25%)]	 Loss: 2.945168
+Train Epoch: 2 [192000/353426 (54.3%)]	 Loss: 2.928429
+Train Epoch: 2 [224000/353426 (63.35%)]	 Loss: 2.925491
+Train Epoch: 2 [256000/353426 (72.41%)]	 Loss: 2.92028
+Train Epoch: 2 [288000/353426 (81.46%)]	 Loss: 2.909556
+Train Epoch: 2 [320000/353426 (90.51%)]	 Loss: 2.905638
+Train Epoch: 2 [352000/353426 (99.57%)]	 Loss: 2.901603
+valid Loss: 2.942916
+2.942916
+save model
+RMSE  0.9591
+MAE  0.7183
+BLEU-1 13.9794
+BLEU-4  1.1320
+USR  0.4809 | USN   21246
+DIV  2.1494
+FCR  0.5078
+FMR  0.1225
+rouge_1 14.8546
+rouge_2  2.0517
+rouge_l 11.7161
+openlm-research/open_llama_7b_v2
+                                 split_index:1
+Train Epoch: 0 [32000/353426 (9.03%)]	 Loss: 5.22202
+Train Epoch: 0 [64000/353426 (18.09%)]	 Loss: 4.551967
+Train Epoch: 0 [96000/353426 (27.14%)]	 Loss: 4.220988
+Train Epoch: 0 [128000/353426 (36.19%)]	 Loss: 3.995352
+Train Epoch: 0 [160000/353426 (45.25%)]	 Loss: 3.831129
+Train Epoch: 0 [192000/353426 (54.3%)]	 Loss: 3.725161
+Train Epoch: 0 [224000/353426 (63.35%)]	 Loss: 3.630667
+Train Epoch: 0 [256000/353426 (72.41%)]	 Loss: 3.544416
+Train Epoch: 0 [288000/353426 (81.46%)]	 Loss: 3.482791
+Train Epoch: 0 [320000/353426 (90.51%)]	 Loss: 3.419213
+Train Epoch: 0 [352000/353426 (99.57%)]	 Loss: 3.36258
+valid Loss: 3.108613
+3.108613
+save model
+Train Epoch: 1 [32000/353426 (9.03%)]	 Loss: 3.292018
+Train Epoch: 1 [64000/353426 (18.09%)]	 Loss: 3.244772
+Train Epoch: 1 [96000/353426 (27.14%)]	 Loss: 3.230231
+Train Epoch: 1 [128000/353426 (36.19%)]	 Loss: 3.181131
+Train Epoch: 1 [160000/353426 (45.25%)]	 Loss: 3.161847
+Train Epoch: 1 [192000/353426 (54.3%)]	 Loss: 3.142695
+Train Epoch: 1 [224000/353426 (63.35%)]	 Loss: 3.116716
+Train Epoch: 1 [256000/353426 (72.41%)]	 Loss: 3.103003
+Train Epoch: 1 [288000/353426 (81.46%)]	 Loss: 3.081827
+Train Epoch: 1 [320000/353426 (90.51%)]	 Loss: 3.067247
+Train Epoch: 1 [352000/353426 (99.57%)]	 Loss: 3.05101
+valid Loss: 2.984628
+2.984628
+save model
+Train Epoch: 2 [32000/353426 (9.03%)]	 Loss: 2.960295
+Train Epoch: 2 [64000/353426 (18.09%)]	 Loss: 2.961393
+Train Epoch: 2 [96000/353426 (27.14%)]	 Loss: 2.940375
+Train Epoch: 2 [128000/353426 (36.19%)]	 Loss: 2.933772
+Train Epoch: 2 [160000/353426 (45.25%)]	 Loss: 2.93257
+Train Epoch: 2 [192000/353426 (54.3%)]	 Loss: 2.92002
+Train Epoch: 2 [224000/353426 (63.35%)]	 Loss: 2.909585
+Train Epoch: 2 [256000/353426 (72.41%)]	 Loss: 2.900834
+Train Epoch: 2 [288000/353426 (81.46%)]	 Loss: 2.898492
+Train Epoch: 2 [320000/353426 (90.51%)]	 Loss: 2.894107
+Train Epoch: 2 [352000/353426 (99.57%)]	 Loss: 2.888087
+valid Loss: 2.925342
+2.925342
+save model
+RMSE  0.9475
+MAE  0.7022
+BLEU-1 13.3113
+BLEU-4  1.1116
+USR  0.4643 | USN   20514
+DIV  2.0416
+FCR  0.5079
+FMR  0.1257
+rouge_1 14.4223
+rouge_2  2.1102
+rouge_l 11.6355
+openlm-research/open_llama_7b_v2
+                                 split_index:2
+Train Epoch: 0 [32000/353426 (9.03%)]	 Loss: 5.250604
+Train Epoch: 0 [64000/353426 (18.09%)]	 Loss: 4.60014
+Train Epoch: 0 [96000/353426 (27.14%)]	 Loss: 4.262521
+Train Epoch: 0 [128000/353426 (36.19%)]	 Loss: 4.034636
+Train Epoch: 0 [160000/353426 (45.25%)]	 Loss: 3.862095
+Train Epoch: 0 [192000/353426 (54.3%)]	 Loss: 3.770038
+Train Epoch: 0 [224000/353426 (63.35%)]	 Loss: 3.635426
+Train Epoch: 0 [256000/353426 (72.41%)]	 Loss: 3.559981
+Train Epoch: 0 [288000/353426 (81.46%)]	 Loss: 3.494967
+Train Epoch: 0 [320000/353426 (90.51%)]	 Loss: 3.420441
+Train Epoch: 0 [352000/353426 (99.57%)]	 Loss: 3.372681
+valid Loss: 3.124769
+3.124769
+save model
+Train Epoch: 1 [32000/353426 (9.03%)]	 Loss: 3.303069
+Train Epoch: 1 [64000/353426 (18.09%)]	 Loss: 3.252869
+Train Epoch: 1 [96000/353426 (27.14%)]	 Loss: 3.23223
+Train Epoch: 1 [128000/353426 (36.19%)]	 Loss: 3.200355
+Train Epoch: 1 [160000/353426 (45.25%)]	 Loss: 3.162557
+Train Epoch: 1 [192000/353426 (54.3%)]	 Loss: 3.158862
+Train Epoch: 1 [224000/353426 (63.35%)]	 Loss: 3.122185
+Train Epoch: 1 [256000/353426 (72.41%)]	 Loss: 3.11079
+Train Epoch: 1 [288000/353426 (81.46%)]	 Loss: 3.075299
+Train Epoch: 1 [320000/353426 (90.51%)]	 Loss: 3.074127
+Train Epoch: 1 [352000/353426 (99.57%)]	 Loss: 3.054608
+valid Loss: 2.999195
+2.999195
+save model
+Train Epoch: 2 [32000/353426 (9.03%)]	 Loss: 2.954934
+Train Epoch: 2 [64000/353426 (18.09%)]	 Loss: 2.966419
+Train Epoch: 2 [96000/353426 (27.14%)]	 Loss: 2.958867
+Train Epoch: 2 [128000/353426 (36.19%)]	 Loss: 2.949538
+Train Epoch: 2 [160000/353426 (45.25%)]	 Loss: 2.947421
+Train Epoch: 2 [192000/353426 (54.3%)]	 Loss: 2.930736
+Train Epoch: 2 [224000/353426 (63.35%)]	 Loss: 2.925611
+Train Epoch: 2 [256000/353426 (72.41%)]	 Loss: 2.918237
+Train Epoch: 2 [288000/353426 (81.46%)]	 Loss: 2.910236
+Train Epoch: 2 [320000/353426 (90.51%)]	 Loss: 2.906131
+Train Epoch: 2 [352000/353426 (99.57%)]	 Loss: 2.901023
+valid Loss: 2.941345
+2.941345
+save model
+RMSE  0.9611
+MAE  0.7195
+BLEU-1 14.2870
+BLEU-4  1.1661
+USR  0.4813 | USN   21263
+DIV  2.2468
+FCR  0.5108
+FMR  0.1233
+rouge_1 15.1459
+rouge_2  2.1296
+rouge_l 11.8870
+openlm-research/open_llama_7b_v2
+                                 split_index:3
+Train Epoch: 0 [32000/353426 (9.03%)]	 Loss: 5.2761
+Train Epoch: 0 [64000/353426 (18.09%)]	 Loss: 4.597832
+Train Epoch: 0 [96000/353426 (27.14%)]	 Loss: 4.303019
+Train Epoch: 0 [128000/353426 (36.19%)]	 Loss: 4.078274
+Train Epoch: 0 [160000/353426 (45.25%)]	 Loss: 3.885073
+Train Epoch: 0 [192000/353426 (54.3%)]	 Loss: 3.754838
+Train Epoch: 0 [224000/353426 (63.35%)]	 Loss: 3.641084
+Train Epoch: 0 [256000/353426 (72.41%)]	 Loss: 3.574816
+Train Epoch: 0 [288000/353426 (81.46%)]	 Loss: 3.524196
+Train Epoch: 0 [320000/353426 (90.51%)]	 Loss: 3.434217
+Train Epoch: 0 [352000/353426 (99.57%)]	 Loss: 3.37708
+valid Loss: 3.126502
+3.126502
+save model
+Train Epoch: 1 [32000/353426 (9.03%)]	 Loss: 3.295692
+Train Epoch: 1 [64000/353426 (18.09%)]	 Loss: 3.259968
+Train Epoch: 1 [96000/353426 (27.14%)]	 Loss: 3.237852
+Train Epoch: 1 [128000/353426 (36.19%)]	 Loss: 3.203597
+Train Epoch: 1 [160000/353426 (45.25%)]	 Loss: 3.172863
+Train Epoch: 1 [192000/353426 (54.3%)]	 Loss: 3.136737
+Train Epoch: 1 [224000/353426 (63.35%)]	 Loss: 3.139535
+Train Epoch: 1 [256000/353426 (72.41%)]	 Loss: 3.10728
+Train Epoch: 1 [288000/353426 (81.46%)]	 Loss: 3.090596
+Train Epoch: 1 [320000/353426 (90.51%)]	 Loss: 3.066797
+Train Epoch: 1 [352000/353426 (99.57%)]	 Loss: 3.049009
+valid Loss: 2.995044
+2.995044
+save model
+Train Epoch: 2 [32000/353426 (9.03%)]	 Loss: 2.956881
+Train Epoch: 2 [64000/353426 (18.09%)]	 Loss: 2.961495
+Train Epoch: 2 [96000/353426 (27.14%)]	 Loss: 2.95497
+Train Epoch: 2 [128000/353426 (36.19%)]	 Loss: 2.94961
+Train Epoch: 2 [160000/353426 (45.25%)]	 Loss: 2.937505
+Train Epoch: 2 [192000/353426 (54.3%)]	 Loss: 2.928488
+Train Epoch: 2 [224000/353426 (63.35%)]	 Loss: 2.922884
+Train Epoch: 2 [256000/353426 (72.41%)]	 Loss: 2.91427
+Train Epoch: 2 [288000/353426 (81.46%)]	 Loss: 2.910325
+Train Epoch: 2 [320000/353426 (90.51%)]	 Loss: 2.903404
+Train Epoch: 2 [352000/353426 (99.57%)]	 Loss: 2.891317
+valid Loss: 2.93461
+2.93461
+save model
+RMSE  0.9459
+MAE  0.6971
+BLEU-1 13.0468
+BLEU-4  1.1093
+USR  0.4539 | USN   20051
+DIV  1.9700
+FCR  0.5249
+FMR  0.1210
+rouge_1 14.2017
+rouge_2  2.0255
+rouge_l 11.4173
+openlm-research/open_llama_7b_v2
+                                 split_index:4
+Train Epoch: 0 [32000/353426 (9.03%)]	 Loss: 5.248036
+Train Epoch: 0 [64000/353426 (18.09%)]	 Loss: 4.589186
+Train Epoch: 0 [96000/353426 (27.14%)]	 Loss: 4.258335
+Train Epoch: 0 [128000/353426 (36.19%)]	 Loss: 4.047558
+Train Epoch: 0 [160000/353426 (45.25%)]	 Loss: 3.901091
+Train Epoch: 0 [192000/353426 (54.3%)]	 Loss: 3.751095
+Train Epoch: 0 [224000/353426 (63.35%)]	 Loss: 3.6536
+Train Epoch: 0 [256000/353426 (72.41%)]	 Loss: 3.566839
+Train Epoch: 0 [288000/353426 (81.46%)]	 Loss: 3.489976
+Train Epoch: 0 [320000/353426 (90.51%)]	 Loss: 3.431561
+Train Epoch: 0 [352000/353426 (99.57%)]	 Loss: 3.363086
+valid Loss: 3.109333
+3.109333
+save model
+Train Epoch: 1 [32000/353426 (9.03%)]	 Loss: 3.287481
+Train Epoch: 1 [64000/353426 (18.09%)]	 Loss: 3.249976
+Train Epoch: 1 [96000/353426 (27.14%)]	 Loss: 3.227489
+Train Epoch: 1 [128000/353426 (36.19%)]	 Loss: 3.21341
+Train Epoch: 1 [160000/353426 (45.25%)]	 Loss: 3.180996
+Train Epoch: 1 [192000/353426 (54.3%)]	 Loss: 3.156037
+Train Epoch: 1 [224000/353426 (63.35%)]	 Loss: 3.137358
+Train Epoch: 1 [256000/353426 (72.41%)]	 Loss: 3.107304
+Train Epoch: 1 [288000/353426 (81.46%)]	 Loss: 3.084337
+Train Epoch: 1 [320000/353426 (90.51%)]	 Loss: 3.076478
+Train Epoch: 1 [352000/353426 (99.57%)]	 Loss: 3.051144
+valid Loss: 2.981072
+2.981072
+save model
+Train Epoch: 2 [32000/353426 (9.03%)]	 Loss: 2.960866
+Train Epoch: 2 [64000/353426 (18.09%)]	 Loss: 2.948418
+Train Epoch: 2 [96000/353426 (27.14%)]	 Loss: 2.95311
+Train Epoch: 2 [128000/353426 (36.19%)]	 Loss: 2.936531
+Train Epoch: 2 [160000/353426 (45.25%)]	 Loss: 2.940419
+Train Epoch: 2 [192000/353426 (54.3%)]	 Loss: 2.924624
+Train Epoch: 2 [224000/353426 (63.35%)]	 Loss: 2.929892
+Train Epoch: 2 [256000/353426 (72.41%)]	 Loss: 2.913321
+Train Epoch: 2 [288000/353426 (81.46%)]	 Loss: 2.909049
+Train Epoch: 2 [320000/353426 (90.51%)]	 Loss: 2.908064
+Train Epoch: 2 [352000/353426 (99.57%)]	 Loss: 2.88894
+valid Loss: 2.924858
+2.924858
+save model
+RMSE  0.9495
+MAE  0.7089
+BLEU-1 13.7369
+BLEU-4  1.1950
+USR  0.4978 | USN   21991
+DIV  2.0299
+FCR  0.5366
+FMR  0.1247
+rouge_1 14.6950
+rouge_2  2.0825
+rouge_l 11.7899
+openlm-research/open_llama_7b_v2
+                                 split_index:5
+Train Epoch: 0 [32000/353426 (9.03%)]	 Loss: 5.21265
+Train Epoch: 0 [64000/353426 (18.09%)]	 Loss: 4.52785
+Train Epoch: 0 [96000/353426 (27.14%)]	 Loss: 4.233452
+Train Epoch: 0 [128000/353426 (36.19%)]	 Loss: 4.005927
+Train Epoch: 0 [160000/353426 (45.25%)]	 Loss: 3.825477
+Train Epoch: 0 [192000/353426 (54.3%)]	 Loss: 3.716682
+Train Epoch: 0 [224000/353426 (63.35%)]	 Loss: 3.614319
+Train Epoch: 0 [256000/353426 (72.41%)]	 Loss: 3.534397
+Train Epoch: 0 [288000/353426 (81.46%)]	 Loss: 3.487529
+Train Epoch: 0 [320000/353426 (90.51%)]	 Loss: 3.399698
+Train Epoch: 0 [352000/353426 (99.57%)]	 Loss: 3.360453
+valid Loss: 3.112329
+3.112329
+save model
+Train Epoch: 1 [32000/353426 (9.03%)]	 Loss: 3.271945
+Train Epoch: 1 [64000/353426 (18.09%)]	 Loss: 3.248896
+Train Epoch: 1 [96000/353426 (27.14%)]	 Loss: 3.208827
+Train Epoch: 1 [128000/353426 (36.19%)]	 Loss: 3.196502
+Train Epoch: 1 [160000/353426 (45.25%)]	 Loss: 3.168279
+Train Epoch: 1 [192000/353426 (54.3%)]	 Loss: 3.134881
+Train Epoch: 1 [224000/353426 (63.35%)]	 Loss: 3.122023
+Train Epoch: 1 [256000/353426 (72.41%)]	 Loss: 3.092009
+Train Epoch: 1 [288000/353426 (81.46%)]	 Loss: 3.08556
+Train Epoch: 1 [320000/353426 (90.51%)]	 Loss: 3.076194
+Train Epoch: 1 [352000/353426 (99.57%)]	 Loss: 3.037689
+valid Loss: 2.995242
+2.995242
+save model
+Train Epoch: 2 [32000/353426 (9.03%)]	 Loss: 2.953758
+Train Epoch: 2 [64000/353426 (18.09%)]	 Loss: 2.955687
+Train Epoch: 2 [96000/353426 (27.14%)]	 Loss: 2.950743
+Train Epoch: 2 [128000/353426 (36.19%)]	 Loss: 2.93749
+Train Epoch: 2 [160000/353426 (45.25%)]	 Loss: 2.92892
+Train Epoch: 2 [192000/353426 (54.3%)]	 Loss: 2.924859
+Train Epoch: 2 [224000/353426 (63.35%)]	 Loss: 2.918241
+Train Epoch: 2 [256000/353426 (72.41%)]	 Loss: 2.914282
+Train Epoch: 2 [288000/353426 (81.46%)]	 Loss: 2.908823
+Train Epoch: 2 [320000/353426 (90.51%)]	 Loss: 2.893365
+Train Epoch: 2 [352000/353426 (99.57%)]	 Loss: 2.883063
+valid Loss: 2.937281
+2.937281
+save model
+RMSE  0.9491
+MAE  0.6985
+BLEU-1 13.3773
+BLEU-4  1.1602
+USR  0.4521 | USN   19974
+DIV  2.1004
+FCR  0.5098
+FMR  0.1278
+rouge_1 14.5909
+rouge_2  2.1192
+rouge_l 11.7948

@@ -15,7 +15,7 @@ import torch.nn.functional as F
 
 from dataloader import *
 from utils import *
-from model import MyModel
+from model import *
 from peft import LoraConfig, get_peft_model, TaskType
 from argparse import ArgumentParser
 
@@ -303,31 +303,32 @@ def main(args):
         best_loss = 999
         early_stop = 1
 
-        for epoch in range(0, args.epochs):
-            a = train_step(model, train_dataloader,
-                           optimizer, device,
-                           epoch, args.show_train_loss_steps,
-                           args.accumulation_steps,
-                           scaler,
-                           log_name
-                    )
-            collate_train.cur_step = len(train_dataloader)*(epoch+1)
-            valid_loss = valid_step(model, valid_dataloader, device, log_name)
-
-            f = open(log_name,'a+')
-            print(valid_loss)
-            f.write(str(valid_loss)+'\n')
-            if best_loss<valid_loss:
-                early_stop -= 1
-            else:
-                print("save model\n")
-                f.write("save model\n")
-                best_loss = valid_loss
-                model.model.save_pretrained(args.ckpt_dir + args.dataset_name + '/'+split_index+'model')
-                torch.save(model.prompt_encoder,args.ckpt_dir + args.dataset_name + '/'+split_index+'ped.bin')
-            f.close()
-            if early_stop == 0:
-                break
+        if args.only_eval == False:
+            for epoch in range(0, args.epochs):
+                a = train_step(model, train_dataloader,
+                               optimizer, device,
+                               epoch, args.show_train_loss_steps,
+                               args.accumulation_steps,
+                               scaler,
+                               log_name
+                        )
+                collate_train.cur_step = len(train_dataloader)*(epoch+1)
+                valid_loss = valid_step(model, valid_dataloader, device, log_name)
+    
+                f = open(log_name,'a+')
+                print(valid_loss)
+                f.write(str(valid_loss)+'\n')
+                if best_loss<valid_loss:
+                    early_stop -= 1
+                else:
+                    print("save model\n")
+                    f.write("save model\n")
+                    best_loss = valid_loss
+                    model.model.save_pretrained(args.ckpt_dir + args.dataset_name + '/'+split_index+'model')
+                    torch.save(model.prompt_encoder,args.ckpt_dir + args.dataset_name + '/'+split_index+'ped.bin')
+                f.close()
+                if early_stop == 0:
+                    break
         model.model.load_adapter(args.ckpt_dir + args.dataset_name + '/'+split_index+'model', 'best_lora')
         model.model.set_adapter("best_lora")
         model.prompt_encoder = torch.load(args.ckpt_dir + args.dataset_name + '/'+split_index+'ped.bin',map_location="cuda:"+str(device))
@@ -353,6 +354,7 @@ if __name__ == '__main__':
     parser.add_argument('--word', default=20, type=int)
     parser.add_argument('--show_train_loss_steps', default=500, type=int)
     parser.add_argument('--id_hidden', default=1024, type=int)
+    parser.add_argument('--only_eval', action='store_true')
 
     parser.add_argument('--dataset_name', default='Amazon/MoviesAndTV', type=str)
     parser.add_argument('--data_dir', default='../data/', type=str)
