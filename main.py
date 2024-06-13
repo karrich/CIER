@@ -77,7 +77,6 @@ def train_step(model,
                                             round(100. * batch_idx / len(train_dataloader), 2),
                                             round(sum(loss_log)/len(loss_log), 6)))
             f.close()
-            print("学习率：%f" % (optimizer.param_groups[0]['lr']))
             loss_log = []
     return    
     
@@ -285,14 +284,12 @@ def main(args):
         model.generate_weight = args.generate_weight
         model.rating_weight = args.rating_weight
         model.model = model_llm
-        ###########################分层学习率####################################
         param = filter(lambda p: p.requires_grad==True, model.prompt_encoder.parameters())
         param2 = filter(lambda p: p.requires_grad==True, model.model.parameters())
         optimizer = AdamW([
              {'params':param,'lr':args.learning_rate},
             {'params':param2,'lr':args.learning_rate/10},
         ])
-        ##############################################################
         scaler = GradScaler()
         log_name = args.log_dir + args.dataset_name+'/' + args.log_name
         output_dir = args.output_dir+ args.dataset_name+'/'+split_index+'generate.dataset'
