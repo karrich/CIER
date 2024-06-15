@@ -1,4 +1,4 @@
-# ERRB
+# CIER(Coherency-Improved Explainable Recommendation via Large Language Model)
 
 ## Datasets to [download](https://lifehkbueduhk-my.sharepoint.com/:f:/g/personal/16484134_life_hkbu_edu_hk/Eln600lqZdVBslRwNcAJL5cBarq6Mt8WzDKpkq1YCqQjfQ?e=cISb1C)
 - TripAdvisor Hong Kong
@@ -24,12 +24,6 @@ python main.py --dataset_name Yelp --only_eval
 - transformers 4.37.2
 - peft 0.3.0
 - accelerate 0.28.0
-
-## If you use the code, please cite:
-```
-@inproceedings{ERRB
-}
-@inproceedings{ACL21-PETER,
 	title={Personalized Transformer for Explainable Recommendation},
 	author={Li, Lei and Zhang, Yongfeng and Chen, Li},
 	booktitle={ACL},
