@@ -1,7 +1,4 @@
-# ERRB (xxxx)
-
-## Paper
-- Shijie Liu, Ruixin Ding, xx xx, Wei Zhang. [name](https:xx). xxxx (EMNLP ing), 2024.
+# ERRB
 
 ## Datasets to [download](https://lifehkbueduhk-my.sharepoint.com/:f:/g/personal/16484134_life_hkbu_edu_hk/Eln600lqZdVBslRwNcAJL5cBarq6Mt8WzDKpkq1YCqQjfQ?e=cISb1C)
 - TripAdvisor Hong Kong
