@@ -350,7 +350,7 @@ if __name__ == '__main__':
                        help='regularization on recommendation task')
     parser.add_argument('--generate_weight', default=1.0, type=float,
                        help='regularization on generation task')
-    parser.add_argument('--delta', default=0.3, type=float)
+    parser.add_argument('--delta', default=0.2, type=float)
     parser.add_argument('--word', default=20, type=int,
                        help='number of words to generate for each sample')
     parser.add_argument('--show_train_loss_steps', default=500, type=int,
