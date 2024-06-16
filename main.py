@@ -338,18 +338,23 @@ def main(args):
 if __name__ == '__main__':
     parser = ArgumentParser()
 
-    parser.add_argument('--devices', default=-1, type=int)
+    parser.add_argument('--devices', default=-1, type=int,
+                       help='Select which GPU to use with the program.')
 
     parser.add_argument('--batch_size', default=64, type=int)
     parser.add_argument('--seed', default=5254, type=int)
     parser.add_argument('--epochs', default=3, type=int)
     parser.add_argument('--learning_rate', default=1e-3, type=float)
     parser.add_argument('--accumulation_steps', default=1, type=int)
-    parser.add_argument('--rating_weight', default=0.1, type=float)
-    parser.add_argument('--generate_weight', default=1.0, type=float)
+    parser.add_argument('--rating_weight', default=0.1, type=float,
+                       help='regularization on recommendation task')
+    parser.add_argument('--generate_weight', default=1.0, type=float,
+                       help='regularization on generation task')
     parser.add_argument('--delta', default=0.3, type=float)
-    parser.add_argument('--word', default=20, type=int)
-    parser.add_argument('--show_train_loss_steps', default=500, type=int)
+    parser.add_argument('--word', default=20, type=int,
+                       help='number of words to generate for each sample')
+    parser.add_argument('--show_train_loss_steps', default=500, type=int,
+                       help='number of train steps for display the loss')
     parser.add_argument('--id_hidden', default=1024, type=int)
     parser.add_argument('--only_eval', action='store_true')
 
