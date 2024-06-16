@@ -25,9 +25,3 @@ The model checkpoints will be made public after the paper is accepted.
 - transformers 4.37.2
 - peft 0.3.0
 - accelerate 0.28.0
-	title={Personalized Transformer for Explainable Recommendation},
-	author={Li, Lei and Zhang, Yongfeng and Chen, Li},
-	booktitle={ACL},
-	year={2021}
-}
-```
