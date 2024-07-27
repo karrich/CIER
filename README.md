@@ -6,7 +6,7 @@
 - Yelp 2019
 
 ## Training
-Below are examples of how to training ERRB.
+Below are examples of how to training CIER.
 ```
 python main.py --dataset_name Yelp
 
