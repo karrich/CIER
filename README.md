@@ -18,7 +18,6 @@ python main.py --dataset_name TripAdvisor
 ```
 python main.py --dataset_name Yelp --only_eval
 ```
-The model checkpoints will be made public after the paper is accepted.
 ## Code dependencies
 - Python 3.9
 - PyTorch 2.2.2
